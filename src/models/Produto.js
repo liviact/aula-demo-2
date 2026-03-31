@@ -91,7 +91,7 @@ export class Produto {
     }
 
     #validarCaminhoImagem(value) {
-        if (value && value.trim().length > 255) {
+        if (value && value.trim().length > 300) {
             throw new Error('O caminho da imagem é muito longo.');
         }
     }
