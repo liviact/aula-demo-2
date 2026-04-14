@@ -12,7 +12,7 @@ const produtoController = {
                 idCategoria,
                 caminhoImagem
             });
-
+  
             const result = await produtoRepository.criar(produto);
             res.status(201).json({ result });
 
