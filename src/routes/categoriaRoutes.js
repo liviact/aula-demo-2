@@ -8,4 +8,4 @@ categoriaRoutes.put('/:id', categoriaController.editar);
 categoriaRoutes.delete('/:id', categoriaController.deletar);
 categoriaRoutes.get('/', categoriaController.selecionar);
 
-export default categoriaRoutes; 
+export default categoriaRoutes;
